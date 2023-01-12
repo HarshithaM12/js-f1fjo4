@@ -37,3 +37,22 @@ getCountryData('usa')
 function add(a,b){
 return a + b;
 }
+
+
+function hackerSpeak(str){
+    const obj = {
+        'a' : 4,
+        'e' : 3,
+        'i' : 1,
+        'o' : 0,
+        's' : 5
+    }
+    return str.split('')
+    .map(a => obj[a]? obj[a] : a)
+    .join('');
+}
+
+console.log(hackerSpeak("javascript is cool"));
+
+
+
