@@ -31,3 +31,9 @@ getCountryData('usa')
     console.log(countryData[0]);
   })
   .catch((err) => console.log(err));
+
+
+
+function add(a,b){
+return a + b;
+}
